@@ -1,4 +1,4 @@
-const { admin } = require("./admin");
+const { admin, db } = require("./admin");
 
 //Authentication middleware
 module.exports = FBAuth = (req, res, next) => {
