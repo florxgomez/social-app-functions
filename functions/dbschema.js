@@ -28,6 +28,16 @@ let db = {
       createdAt: "2019-10-12T19:49:05.162Z",
     },
   ],
+  notifications: [
+    {
+      recipiet: "user",
+      sender: "flo",
+      read: "true | false",
+      postId: "dasjdjosdaod",
+      type: "like | comment",
+      createdAt: "2019-10-12T19:49:05.162Z",
+    },
+  ],
 };
 const userDetails = {
   //Redux data that will be shown in the user profile
